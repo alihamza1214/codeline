@@ -148,7 +148,7 @@
                             <div class="form-group row">
                                 <label  class="col-sm-2 col-form-label">Name</label>
                                 <div class="col-sm-6">
-                                    <a href="/films/{{$film->name}}" style="float: left">{{$film->name}}</a>
+                                    <a href="/film/{{$film->name}}" style="float: left">{{$film->name}}</a>
                                 </div>
                             </div>
                             <div class="form-group row">

@@ -17,7 +17,7 @@ Route::get('/', function () {
 });
 Route::get('/logout', [ 'uses' => 'Auth\LoginController@logout']);
 Route::get('/films', ['uses' => 'FilmController@index']);
-Route::get('/films/{name}', ['uses' => 'FilmController@singleFilm']);
+Route::get('/film/{name}', ['uses' => 'FilmController@singleFilm']);
 
 
 Route::get('/films/create',['middleware' => "auth",  function () {
